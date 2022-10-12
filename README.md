@@ -1,14 +1,14 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://slack.com">Slack</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/slack/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/slack?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/slack/issues"><img src="https://img.shields.io/github/issues/catppuccin/slack?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/slack/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/slack?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -17,19 +17,32 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. Open Slack Desktop, click your profile picture in the top right.
+2. Select **Preferences**.
+3. Click **Themes**
+4. Below **Colors**, click **Create a custom theme**, and paste your preferred flavour from below
 
-## 🙋 FAQ (optional)
+🌻 Latte
+```
+#EFF1F5,#F8F8FA,#40A02B,#EFF1F5,#DCE0E8,#4C4F69,#40A02B,#E64553,#EFF1F5,#4C4F69
+```
+🪴 Frappé
+```
+#303446,#F8F8FA,#A6D189,#303446,#232634,#C6D0F5,#A6D189,#EA999C,#303446,#C6D0F5
+```
+🌺 Macchiato
+```
+#24273A,#F8F8FA,#A6DA95,#24273A,#181926,#CAD3F5,#A6DA95,#EE99A0,#24273A,#CAD3F5
+```
+🌿 Mocha
+```
+#1E1E2E,#F8F8FA,#A6E3A1,#1E1E2E,#11111B,#CDD6F4,#A6E3A1,#EBA0AC,#1E1E2E,#CDD6F4
+```
 
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [uShldGetCeleste](https://github.com/uShldGetCeleste)
 
 &nbsp;
 
