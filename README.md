@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
+	<img src="./assets/preview.webp"/>
 </p>
 
 ## Usage
@@ -22,23 +22,29 @@
 3. Click **Themes**
 4. Below **Colors**, click **Create a custom theme**, and paste your preferred flavour from below
 
-🌻 Latte
+🌻 Latte (Enable light mode in theme settings)
+
 ```
 #EFF1F5,#F8F8FA,#40A02B,#EFF1F5,#DCE0E8,#4C4F69,#40A02B,#E64553,#EFF1F5,#4C4F69
 ```
+
 🪴 Frappé
+
 ```
 #303446,#F8F8FA,#A6D189,#303446,#232634,#C6D0F5,#A6D189,#EA999C,#303446,#C6D0F5
 ```
+
 🌺 Macchiato
+
 ```
 #24273A,#F8F8FA,#A6DA95,#24273A,#181926,#CAD3F5,#A6DA95,#EE99A0,#24273A,#CAD3F5
 ```
+
 🌿 Mocha
+
 ```
 #1E1E2E,#F8F8FA,#A6E3A1,#1E1E2E,#11111B,#CDD6F4,#A6E3A1,#EBA0AC,#1E1E2E,#CDD6F4
 ```
-
 
 ## 💝 Thanks to
 
