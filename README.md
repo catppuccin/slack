@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="assets/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/preview.webp"/>
 </p>
 
 ## Previews
