@@ -43,10 +43,19 @@
 > palette, and instead they are mapped to Slack's built-in colors. However, the
 > theme strings work as intended on older versions of Slack.
 
+### Redesign
+
 1. Click your profile picture in the bottom left.
 2. Head to `Preferences` → `Themes`
-3. Copy one of the [theme strings](#theme-strings) below.
+3. Copy one of the [theme strings](#theme-strings) shown below.
 4. Paste theme string into `Import theme`
+
+### Legacy
+
+1. Open Slack Desktop, click your profile picture in the top right.
+2. Head to `Preferences` → `Themes`
+3. Copy one of the [theme strings](#theme-strings) shown below.
+3. Below `Colors`, click `Create a custom theme`, and paste your theme string.
 
 ### Theme Strings
 
