@@ -36,34 +36,36 @@
 
 ## Usage
 
-1. Open Slack Desktop, click your profile picture in the top right.
-2. Select **Preferences**.
-3. Click **Themes**
-4. Below **Colors**, click **Create a custom theme**, and paste your preferred flavour from below
+> [!IMPORTANT]  
+> Due to Slack's new
+> [redesign](https://slack.com/intl/en-gb/blog/productivity/a-redesigned-slack-built-for-focus),
+> the theme strings don't directly apply the
+> palette, and instead they are mapped to Slack's built-in colors. However, the
+> theme strings work as intended on older versions of Slack.
 
-🌻 Latte (Enable light mode in theme settings)
+1. Click your profile picture in the bottom left.
+2. Head to `Preferences` → `Themes`
+3. Copy one of the [theme strings](#theme-strings) below.
+4. Paste theme string into `Import theme`
 
-```
-#EFF1F5,#F8F8FA,#40A02B,#EFF1F5,#DCE0E8,#4C4F69,#40A02B,#E64553,#EFF1F5,#4C4F69
-```
+### Theme Strings
 
-🪴 Frappé
-
-```
-#303446,#F8F8FA,#A6D189,#303446,#232634,#C6D0F5,#A6D189,#EA999C,#303446,#C6D0F5
-```
-
-🌺 Macchiato
-
-```
-#24273A,#F8F8FA,#A6DA95,#24273A,#181926,#CAD3F5,#A6DA95,#EE99A0,#24273A,#CAD3F5
-```
-
-🌿 Mocha
-
-```
-#1E1E2E,#F8F8FA,#A6E3A1,#1E1E2E,#11111B,#CDD6F4,#A6E3A1,#EBA0AC,#1E1E2E,#CDD6F4
-```
+- **Latte** (Make sure to enable light mode!)
+  ```
+  #EFF1F5,#F8F8FA,#8839EF,#EFF1F5,#DCE0E8,#4C4F69,#8839EF,#E64553,#EFF1F5,#4C4F69
+  ```
+- **Frappé**
+  ```
+  #303446,#F8F8FA,#CA9EE6,#303446,#232634,#C6D0F5,#CA9EE6,#EA999C,#303446,#C6D0F5
+  ```
+- **Macchiato**
+  ```
+  #24273A,#F8F8FA,#C6A0F6,#24273A,#181926,#CAD3F5,#C6A0F6,#EE99A0,#24273A,#CAD3F5
+  ```
+- **Mocha**
+  ```
+  #1E1E2E,#F8F8FA,#CBA6F7,#1E1E2E,#11111B,#CDD6F4,#CBA6F7,#EBA0AC,#1E1E2E,#CDD6F4
+  ```
 
 ## 💝 Thanks to
 
