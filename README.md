@@ -67,7 +67,8 @@
 
 ## 💝 Thanks to
 
-- [uShldGetCeleste](https://github.com/uShldGetCeleste)
+- [qupufu](https://github.com/qupufu)
+- [Hammy](https://github.com/sgoudham)
 
 &nbsp;
 
