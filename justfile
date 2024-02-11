@@ -1,8 +1,6 @@
-default: all
+_default:
+  @just --list
 
-gen flavor:
-  @echo "{{flavor}}:"
-  @whiskers template/theme-string.tmpl {{flavor}}
-  @echo
-
-all: (gen "latte") (gen "frappe") (gen "macchiato") (gen "mocha")
+# Generate README.md from template
+gen:
+  whiskers README.tmpl.md all > README.md
