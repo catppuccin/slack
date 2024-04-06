@@ -1,8 +1,6 @@
 ---
-weird: "F8F8FA"
-overrides:
-  frappe:
-    flavor: "frappé"
+whiskers:
+  version: 2.0.0
 ---
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
@@ -18,31 +16,31 @@ overrides:
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/preview.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/slack/main/assets/mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Due to Slack's new
 > [redesign](https://slack.com/intl/en-gb/blog/productivity/a-redesigned-slack-built-for-focus),
 > the theme strings don't directly apply the
@@ -65,13 +63,15 @@ overrides:
 
 ### Theme Strings
 
-{{#each flavors}}
-- **{{titlecase flavor}}**{{#if @first}} (Make sure to enable light mode!){{/if}}
+{% for id, flavor in flavors %}
+{%- set palette = flavor.colors -%}
+- **{{flavor.name}}**{% if id == "latte" %} (Make sure to enable light mode!){%- endif %}
+{%- filter upper %}
   ```
-  #{{uppercase base}},#{{weird}},#{{uppercase mauve}},#{{uppercase base}},#{{uppercase crust}},#{{uppercase text}},#{{uppercase mauve}},#{{uppercase maroon}},#{{uppercase base}},#{{uppercase text}}
+  #{{palette.base.hex}},#F8F8FA,#{{palette.mauve.hex}},#{{palette.base.hex}},#{{palette.crust.hex}},#{{palette.text.hex}},#{{palette.mauve.hex}},#{{palette.maroon.hex}},#{{palette.base.hex}},#{{palette.text.hex}}
   ```
-{{/each}}
-
+{% endfilter -%}
+{%- endfor %}
 ## 💝 Thanks to
 
 - [qupufu](https://github.com/qupufu)
